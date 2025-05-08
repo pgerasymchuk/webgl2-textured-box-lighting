@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Textured Box with Phong Lighting</title>
+  <script src="app.js" type="module" defer></script>
+</head>
+
+<body>
+  <canvas id="canvas" width="500" height="500" style="border: 1px solid black"></canvas>
+  <p>Click on the canvas to change the texture. Press these keys to manipulate cube:</p>
+  <ul>
+    <li>↑,↓ - Open/Close lid</li>
+    <li>←,→ - Rotate around Y-axis</li>
+    <li>2,8 - Rotate around X-axis</li>
+    <li>4,6 - Rotate around Z-axis</li>
+    <li>0,1 - Move along Z-axis</li>
+    <li>A,D - Move light source along X-axis</li>
+    <li>W,X - Move light source along Y-axis</li>
+    <li>3,5 - Move light source along Z-axis</li>
+  </ul>
+  <p>Current light source position:</p>
+  <p id="light-position"></p>
+</body>
+</html>
